@@ -6,7 +6,6 @@
 
 using namespace std;
 
-//Traversal 
 struct GraphInput {
     int noOfVertex;
     int noOfEdges;
@@ -18,11 +17,12 @@ struct GraphInput {
     }
 };
 
+//Adjecency matrix
 struct AdjM {
-   
     int vx;
     int es; 
     vector<vector <int> > g;
+    
     AdjM (int i,int j) : 
         vx(i) , es(j) 
     {
